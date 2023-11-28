@@ -1,0 +1,29 @@
+
+
+* {
+    padding: 0px; 
+    margin: 0px; 
+    box-sizing: border-box; 
+    height: 100vh; 
+}
+
+#dark-mode-button {
+    width: 100px; 
+    height: 50px; 
+    border-radius: 20px; 
+}
+
+
+.dark-mode {
+    background: linear-gradient(162deg, #F8F1FF 13.02%, #DECDF5 36.98%, #383F51 76.5%, #191919 100%);
+    background-size: 200% 200%;
+    background-position: 100% 100%; 
+    transition: background-position 5s; 
+}
+
+.light-mode {
+    background: linear-gradient(162deg, #F8F1FF 13.02%, #DECDF5 36.98%, #383F51 76.5%, #191919 100%);
+    background-size: 200% 200%;
+    background-position: 0% 0%; 
+    transition: background-position 5s;  
+}
